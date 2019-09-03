@@ -72,4 +72,4 @@ whereUse() {
 | `onCanceled` | Function  | Cancel | none
 | `onDateChanged` | Function | Date change(iOS only) | none
 | `title` | String | Title(iOS only) | none
-| `onError` | Function | Error occurred(Android only) | none
+| `onError` | Function | Error occurred(Android only) | none
