@@ -2,7 +2,7 @@
 Lightweight date picker
 
 - There is no other integration, and you can even take DatePicker.js out and use it directly.
-- IOS use DatePickerIOS and Android use DatePickerAndroid
+- IOS use DatePickerIOS and Android use DatePickerAndroid
 ![alt](./Snapshot/snapshot_ios.png)
 ![alt](./Snapshot/snapshot_android.png)
 
@@ -25,29 +25,29 @@ render() {
       <View>
         {...Other Element}
         <DatePicker ref={(ref)=>{ this.datePicker = ref; }}
-        dateFormat={'yyyy/MM/dd'}
-        date={new Date(2018, 7, 8)}
-        minimumDate={new Date(2008, 7, 8)}
-        maximumDate={new Date(2020, 7, 8)}
-        onDatePicked={(selectedDate, selectedDateFormat)=>{
-            this.setState({
-                pickedText: selectedDateFormat
-            })
-        }}
-        onCanceled={()=>{
+            dateFormat={'yyyy/MM/dd'}
+            date={new Date(2018, 7, 8)}
+            minimumDate={new Date(2008, 7, 8)}
+            maximumDate={new Date(2020, 7, 8)}
+            onDatePicked={(selectedDate, selectedDateFormat)=>{
+                this.setState({
+                    pickedText: selectedDateFormat
+                })
+            }}
+            onCanceled={()=>{
 
-        }}
-        // iOS only
-        onDateChanged={(date, dateFormat)=>{
-            this.setState({
-                changedText: dateFormat
-            })
-        }}
-        title={'选择日期'}
-        // Android only
-        onError={(error)=>{
-            const { message } = error;
-        }}
+            }}
+            // iOS only
+            onDateChanged={(date, dateFormat)=>{
+                this.setState({
+                    changedText: dateFormat
+                })
+            }}
+            title={'选择日期'}
+            // Android only
+            onError={(error)=>{
+                const { message } = error;
+            }}
         />
       </View>
     );
