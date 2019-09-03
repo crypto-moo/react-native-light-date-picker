@@ -4,8 +4,6 @@ Lightweight date picker
 - There is no other integration, and you can even take DatePicker.js out and use it directly.
 - IOS use DatePickerIOS and Android use DatePickerAndroid
 
-
-
 ![alt](./Snapshot/snapshot_ios.png)
 ![alt](./Snapshot/snapshot_android.png)
 
@@ -69,8 +67,7 @@ whereUse() {
 | `dateFormat` | String  | Current date format | yyyy-MM-dd
 | `date` | Date  | The first pop-up date of default selection | new Date()
 | `minimumDate` | Date  | Minimum optional range date | new Date()
-| `maximumDate` | Date  | Maximum optional range date
- | new Date(3000, 1, 1)
+| `maximumDate` | Date  | Maximum optional range date | new Date(3000, 1, 1)
 | `onDatePicked` | Function  | Date confirmation selection | none 
 | `onCanceled` | Function  | Cancel | none
 | `onDateChanged` | Function | Date change(iOS only) | none
