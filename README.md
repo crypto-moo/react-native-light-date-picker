@@ -4,7 +4,6 @@ Lightweight date picker
 - There is no other integration, and you can even take DatePicker.js out and use it directly.
 - IOS use DatePickerIOS and Android use DatePickerAndroid
 ![alt](./Snapshot/snapshot_ios.png)
-![alt](./Snapshot/snapshot_android.png)
 
 ### Sample
 ```sh
