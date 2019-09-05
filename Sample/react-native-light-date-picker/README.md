@@ -6,20 +6,12 @@ Lightweight date picker
 ![alt](./Snapshot/snapshot_ios.png)
 ![alt](./Snapshot/snapshot_android.png)
 
-### Sample
-```sh
-$ cd Sample
-$ npm install
-$ react-native run-ios   // For ios
-$ react-native run-android   // For Android
-```
-
 ### Installation
-`npm install react-native-simple-date-picker --save`
+`npm install react-native-light-date-picker --save`
 
 ### Usage
 ```javascript
-import DatePicker from 'react-native-simple-date-picker';
+import DatePicker from 'react-native-light-date-picker';
 ...
 render() {
     return (
@@ -67,8 +59,7 @@ whereUse() {
 | `dateFormat` | String  | Current date format | yyyy-MM-dd
 | `date` | Date  | The first pop-up date of default selection | new Date()
 | `minimumDate` | Date  | Minimum optional range date | new Date()
-| `maximumDate` | Date  | Maximum optional range date
- | new Date(3000, 1, 1)
+| `maximumDate` | Date  | Maximum optional range date | new Date(3000, 1, 1)
 | `onDatePicked` | Function  | Date confirmation selection | none 
 | `onCanceled` | Function  | Cancel | none
 | `onDateChanged` | Function | Date change(iOS only) | none

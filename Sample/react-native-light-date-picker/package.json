@@ -1,0 +1,16 @@
+{
+  "name": "react-native-light-date-picker",
+  "version": "0.0.1",
+  "description": "Lightweight date picker",
+  "main": "DatePicker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "crypto-moo",
+  "license": "ISC",
+  "keywords": [
+    "Lightweight",
+    "date",
+    "picker"
+  ]
+}

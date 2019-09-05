@@ -18,7 +18,7 @@ import {
 import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
-import DatePicker from './react-native-simple-date-picker/DatePicker';
+import DatePicker from 'react-native-light-date-picker';
 
 export default class App extends React.Component {
   constructor(props) {
